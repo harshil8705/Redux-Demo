@@ -8,7 +8,7 @@ const countReducer = (state = initialState, action) => {
         case 'DECREMENT':
             return {count: state.count - 1}
         default:
-            break;
+            return state;
     }
 
 };

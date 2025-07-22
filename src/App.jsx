@@ -1,4 +1,5 @@
 import './App.css'
+import Counter from './Counter'
 
 function App() {
 
@@ -6,7 +7,7 @@ function App() {
     
     <>
       <p>Hello World!!</p>
-      
+      <Counter />
     </>
 
   )
