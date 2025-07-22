@@ -1,4 +1,4 @@
-const initialState = {count : 0}
+const initialState = {count : 10}
 
 const countReducer = (state = initialState, action) => {
 

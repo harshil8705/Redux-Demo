@@ -1,13 +1,14 @@
 import './App.css'
 import Counter from './Counter'
+import Display from './Display'
 
 function App() {
 
   return (
     
     <>
-      <p>Hello World!!</p>
       <Counter />
+      <Display />
     </>
 
   )
